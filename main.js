@@ -1,25 +1,4 @@
-// import {getMovisById } from './js/model/movis.js';
-// import{getAuthorsWithOscar} from './js/model/authors.js';
-// import{getTotalAuthorAwards} from './js/model/authors.js';
-// import{authorsBornAfter1980} from './js/model/authors.js';
-// import {getAuthorWithMoreAwards}from './js/model/authors.js'
-// import {getAllDifferentGenres} from './js/model/movis.js'
-// import {getAllMoviesWithAuthor1} from './js/model/movis.js'
-// import{getDvdCopiesTotalValue} from './js/model/movis.js'
-// import {getJohnDoeMovies}from './js/model/movis.js'
-// import{getTotalAuthors}from './js/model/authors.js'
-// import {AvgAuthorsAge} from './js/model/authors.js'
-// import {getAllAuthorsWithInstagram} from './js/model/authors.js'
-// import {getAllMoviesWithPrincipalAuthors} from "./js/model/movis.js"
-// import {getTotalMoviesAwards} from './js/model/movis.js'
-// import {getJohnDoeBluerayMovies} from './js/model/movis.js'
-// import {getFictionMoviesWithAuthor3}from './js/model/movis.js'
-// import{getMoviWithMostDvdCopies} from './js/model/movis.js'
-// import{getAuthorsAwardsAfter2015} from './js/model/authors.js'
-// import {getBlurayCopiesValue} from './js/model/movis.js'
-// import{getMoviesWithAuthor2}from './js/model/movis.js'
 
-// main.js
 
 //MOVIS NEW 
 import { movis } from "./js/model/movis.js";
@@ -44,7 +23,7 @@ import { movis } from "./js/model/movis.js";
 
 //AUTHORS 
 import {authors} from './js/model/authors.js'
-let objAuthors = new authors();
+// let objAuthors = new authors();
 
 // console.log(await objAuthors.getAuthorsWithOscar())//2
 // console.log(await objAuthors.getTotalAuthorAwards())//3
