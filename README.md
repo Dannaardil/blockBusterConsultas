@@ -3,7 +3,7 @@
 1. **Contar el número total de copias de DVD disponibles en todos los registros:**
 
    ```javascript
-   [
+   db.movis.aggregate([
         {
           $unwind: "$format"
         },
@@ -18,7 +18,7 @@
             cantidad: {$sum: "$format.copies"}
           }
         }
-      ]
+      ])
    
    ```
 
